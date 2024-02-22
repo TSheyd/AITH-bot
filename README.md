@@ -36,10 +36,17 @@ Perhaps [previous work](https://github.com/Samoed/itmo-ai-timetable-ics/tree/mai
 ---
 
 # Stack
-- [aiogram](https://docs.aiogram.dev/en/latest/) for Telegram client, because I want to learn it + it might be slightly faster than Telebot
-- sqlite for databases
-- Google Sheets as data source + [gspread](https://github.com/burnash/gspread) for API
+### Bot
+- [Aiogram](https://docs.aiogram.dev/en/latest/) for Telegram client
+- Sqlite for databases
 - Docker for deployment
 
-# Misc
-Need to discuss integrating with hub
+### Integrations
+- Google Sheets as data source + [gspread](https://github.com/burnash/gspread) for API
+
+- Notion + Notion API for courses info and other content. **Connecting Notion**:
+  1. Go to https://www.notion.so/my-integrations/ and click on "New integration".
+  2. Fill in the name of the integration, select the workspace and click "Submit".
+  3. In "Capabilities" select only "Read content" in Content capabilities and "No user information" in User capabilities, click "Save changes".
+  4. **Go to the Courses page**, click ... → Connect to → Find the created connection → Select → Confirm.
+  5. Copy the "Internal Integration Secret" and paste it into the config file.
