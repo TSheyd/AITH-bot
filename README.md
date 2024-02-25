@@ -22,7 +22,7 @@ Perhaps [previous work](https://github.com/Samoed/itmo-ai-timetable-ics/tree/mai
 - special events (meetups etc)
 
 # Other
-- Link to talent-matcher website on main page / project seminar page
+- Link to [talent-matcher website](https://www.talent-match.ru/) on main page / project seminar page
 - Link to this git page / Buymeacoffee / contact info
 - Suggest features
 
